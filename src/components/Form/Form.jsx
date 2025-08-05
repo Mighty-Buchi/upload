@@ -11,7 +11,7 @@ const Form = () => {
                     <input type="password" name='auth.key' placeholder='**************************' /><br />
 
                     <label htmlFor="title">Title</label><br />
-                    <input type="text" name='title' /><br />
+                    <input type="text" name='title'  placeholder='Day 001'/><br />
 
                     <label htmlFor="">Description</label><br />
                     <textarea name="description" cols={30} rows={10} placeholder='Description'></textarea>

@@ -49,9 +49,14 @@ input,textarea{
     padding: 0.5em;
     border-radius: 2px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    border: hidden;
+    border: none;
+    outline: none;
     background-color: #242E4c;
     margin-bottom: 1em;
+    transition: .25s ease-in-out;
+}
+input:focus,textarea:focus{
+    border:1px solid #f96b99;
 }
 select{
     margin-bottom: 1em;
